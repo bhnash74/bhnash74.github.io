@@ -1,16 +1,21 @@
 .side-navbar {
-    width: 180px;
+    width: 25%;
     height: 100%;
     position: fixed;
     margin-left: -300px;
     background-color: #100901;
     transition: 0.5s;
   }
-  
+  .nav-link {
+    padding: 0;
+  }
+
   .nav-link:active,
   .nav-link:focus,
   .nav-link:hover {
     background-color: #ffffff26;
+    width: 100%;
+    font-size: 32px;
   }
   
   .my-container {
@@ -30,4 +35,16 @@
     background-color: #100901;
     color: #fff;
     margin-left: -62px;
+
+  }
+  .mx-2 {
+    font-family: "Redressed";
+    color:#F5F5F5;
+    font-size: 14px;
+  }
+  .titlecard  {
+    font-family: "Redressed";
+    color:#071725;
+    font-size: 20px;
+
   }

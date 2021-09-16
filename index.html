@@ -9,6 +9,7 @@
         rel= "stylesheet"
         href= "bootstrap.css"
     >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Redressed">
     <link    
     rel= "stylesheet"
     type= "text/css"
@@ -17,50 +18,56 @@
     <title>Bethany Nash's profile page</title>
 </head>
 <body>
-    <div>
-        <!--   Navigation Start-->
-        <div class="side-navbar active-nav d-flex justify-content-between flex-wrap flex-column" id="sidebar">
-            <ul class="nav flex-column text-white w-100">
-              <li href="#home" class="nav-link">
-                <span class="mx-2">Home</span>
-              </li>
-              <li href="#aboutme" class="nav-link">
-                <span class="mx-2">About Me</span>
-              </li>
-              <li href="#experience" class="nav-link">
-                <span class="mx-2">Experience</span>
-              </li>
-              <li href="#contact" class="nav-link">
-                <span class="mx-2">Contact</span>
-              </li>
-            </ul>
-          </div>
+    <div class = "container">
+    <!--   Navigation Start-->
+        <div class="row">
+            <div class="col-3">
+                <div class="side-navbar active-nav" id="sidebar">
+                    <ul class="nav">
+                        <li  class="nav-link">
+                            <a href="#home"><span class="mx-2">Home</span></a> 
+                        </li>
+                        <li class="nav-link">
+                            <a href="#aboutme"><span class="mx-2">About Me</span></a>
+                        <li class="nav-link">
+                            <a href="#experience"><span class="mx-2">Experience</span></a>
+                        </li>
+                        <li class="nav-link">
+                            <a href="#contact"><span class="mx-2">Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         <!--   Navigation End-->
-    </div>
+            <div class="col-9">         
+
      <!--    Homepage Start-->
-        <div class="home">
-    
-        <a class="btn border-0" id="menu-btn">
-          <i class="bx bx-menu"></i>
-        </a>
-        <!--    Homepage End-->
-      </div>
-        <div class="aboutme">
 
-            <!--    About Me Start-->
-            <h3>About Me</h3>
-            <!--    About Me End-->
-        </div>
-        <div class="experience">
-            <!--    Experience Start-->
-            <h3>Experience</h3>
-            <!--    Experience End-->
-        </div>
-        <div class="contact">
+                <div id="home" class="home">
+                    <a class="btn border-0" id="menu-btn">
+                        <i class="bx bx-menu"></i>
+                    </a>
+                    <p class ="titlecard">Bethany Nash</br>MERN Full-Stack Developer</p>
+                        <!--    Homepage End-->
+                </div>
+                <div id="aboutme" class="aboutme">
 
-            <!--    Contact Me Start-->
-            <h3>Contact Me</h3>
-            <!--    Contact Me End-->
-        </div>
+                    <!--    About Me Start-->
+                    <h3>About Me</h3>
+                    <!--    About Me End-->
+                </div>
+                <div id="experience" class="experience">
+                    <!--    Experience Start-->
+                    <h3>Experience</h3>
+                    <!--    Experience End-->
+                </div>
+                <div id="contact" class="contact">
+                    <!--    Contact Me Start-->
+                    <h3>Contact Me</h3>
+                    <!--    Contact Me End-->
+                </div>
+            </div> 
+        </div> 
+    </div>
 </body>
 </html>
