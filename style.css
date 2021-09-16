@@ -9,7 +9,9 @@
   .nav-link {
     padding: 0;
   }
-
+  a {
+    text-decoration: none;
+  }
   .nav-link:active,
   .nav-link:focus,
   .nav-link:hover {
@@ -42,9 +44,21 @@
     color:#F5F5F5;
     font-size: 14px;
   }
-  .titlecard  {
+ #pic{ 
+	background-image: url("placeholder.jpg"); 
+	background-size: cover; 
+	height: 50vh; 
+
+} 
+#imagetext{
+  position: relative; 
+	top:75%; 
+	width: 50%; 
+  color:#F5F5F5;
+}
+  
+  #home,#aboutme,#experience,#contact {
+    height: 100vh;
     font-family: "Redressed";
     color:#071725;
-    font-size: 20px;
-
   }
