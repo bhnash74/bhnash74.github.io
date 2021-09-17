@@ -1,10 +1,8 @@
 .side-navbar {
-    width: 25%;
     height: 100%;
-    position: fixed;
-    margin-left: -300px;
-    background-color: #100901;
-    transition: 0.5s;
+    width:25%;
+    position:fixed;
+    max-width: 25%;
   }
   .nav-link {
     padding: 0;
@@ -19,46 +17,52 @@
     width: 100%;
     font-size: 32px;
   }
-  
-  .my-container {
-    transition: 0.4s;
-  }
-  
-  .active-nav {
-    margin-left: 0;
-  }
-  
-  /* for main section */
-  .active-cont {
-    margin-left: 180px;
-  }
-  
-  #menu-btn {
-    background-color: #100901;
-    color: #fff;
-    margin-left: -63px;
 
-  }
   .mx-2 {
     font-family: "Redressed";
     color:#F5F5F5;
     font-size: 14px;
   }
- #pic{ 
-	background-image: url("placeholder.jpg"); 
-	background-size: cover; 
-	height: 50vh; 
 
-} 
-#imagetext{
-  position: relative; 
-	top:75%; 
-	width: 50%; 
-  color:#F5F5F5;
+  .imagetext{
+      color:#4e0a0a;
+      padding-left: 5vw;
 }
   
-  #home,#aboutme,#experience,#contact {
+  #home,#experience,#contact {
     height: 100vh;
     font-family: "Redressed";
     color:#071725;
+    padding-left: 5vw;
   }
+  #aboutme {
+    height: 200vh;
+    font-family: "Redressed";
+    color:#071725;
+    padding-left: 5vw;
+
+  }
+.intro1,.intro3,.intro4, .intro5, .intro6 {
+    color:#000000;
+    font-family: "Roboto Condensed";
+
+  }
+  .intro5{
+    font-weight: bolder;
+
+  }
+  .intro2 {
+    color:#071725;
+    font-family: "Roboto Condensed";
+    font-size: larger;
+    font-weight: bolder;
+
+  }
+  .container {
+    margin: 0;
+    padding: 0;
+  }
+  div.row {
+    --bs-gutter-x:0;
+  }
+ 
