@@ -29,34 +29,48 @@
       padding-left: 5vw;
 }
   
-  #home,#experience,#contact {
+  #home,#contact {
     height: 100vh;
-    font-family: "Redressed";
-    color:#071725;
     padding-left: 5vw;
   }
   #aboutme {
-    height: 200vh;
+    height: 125vh;
+  }
+  #experience {
+    height: 400vh;
+    padding-left: 5vw; 
+    font-weight: light;
+  }
+
+  .main {
+    color:#000000;
+    font-family: "Roboto Condensed";
+    font-size:100%;
+  }
+  h2 {
     font-family: "Redressed";
     color:#071725;
     padding-left: 5vw;
-
   }
-.intro1,.intro3,.intro4, .intro5, .intro6 {
+  .intro1,.intro3,.intro4, .intro5, .intro6 {
     color:#000000;
     font-family: "Roboto Condensed";
-
+    font-size:100%;
   }
   .intro5{
     font-weight: bolder;
-
+    font-size:125%
   }
   .intro2 {
     color:#071725;
     font-family: "Roboto Condensed";
-    font-size: larger;
+    font-size: 100%;
     font-weight: bolder;
 
+  }
+  .subtitle {
+    font-weight: normal; 
+    font-size: 120%;
   }
   .container {
     margin: 0;
@@ -65,4 +79,29 @@
   div.row {
     --bs-gutter-x:0;
   }
- 
+ .rounded-circle {
+   float:left;
+ }
+ .contact1 {
+  color: rgb(80, 150, 241);
+ }
+ h2 {
+   text-align: center;
+ }
+ .title-col {
+  font-weight: bold;
+ }
+ .top-buffer { 
+   margin-top:5%;
+}
+.desc-col{
+  padding-left:2%;
+}
+.link-col{
+  padding-left:2%;
+}
+.pic {
+  max-width:50%;
+  padding-left: 5%;
+  padding-right: 5%;
+}

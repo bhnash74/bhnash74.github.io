@@ -8,6 +8,10 @@
         rel= "stylesheet"
         href= "bootstrap.css"
     >
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      >
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Redressed|Roboto+Condensed">
    <link    
     rel= "stylesheet"
@@ -38,42 +42,84 @@
                 </div>
             </div>
         <!--   Navigation End-->
-            <div class="col-9">         
+            <div class="col-9 main">         
 
      <!--    Homepage Start-->
 
-                <div id="home" class="home">
-                    <img src="./images/placeholder.jpg" class="img-fluid rounded-circle" alt="Bethany Nash MERN Full Stack Developer">
+                <div id="home" class="home text-wrap main">
+                    <img src="./images/placeimg.jpg" class="img-fluid" alt="Bethany Nash MERN Full Stack Developer">
                     <p class="imagetext">Bethany Nash</br>MERN Full-Stack Developer</p>
                         <!--    Homepage End-->
                 </div>
-                <div id="aboutme" class="aboutme">
+                <div id="aboutme" class="aboutme main">
 
                     <!--    About Me Start-->
-                    <h3>About Me</h3>
+                    <h2>About Me</h2>
                     <span class = "intro1">Hello, I'm Bethany Nash. </span>
                     <span class = "intro2">I like to design and solve problems. </span>
-                    <img src="./images/about_image.jpg" class="img-fluid" alt="image of laptop with stars bursting out">
-                    <span class = "intro3">I live in the San Antonio area and love Web Development,</span>
-                    <span class = "intro4">as it allows me to work with people, creating solutions 
+                    <span class = "intro3"><img src="./images/My Post.jpg" class="rounded-circle img-fluid pic" alt="image of laptop with stars bursting out">
+                    I live in the San Antonio area and love Web Development,
+                    as it allows me to work with people, creating solutions 
                     to the projects they envision.</span>  
                     <span class = "intro5">It's almost like doing Magic -</span>
                     <span class = "intro6">all the hours of testing and research nonwithstanding.</span>
                     
                     <!--    About Me End-->
                 </div>
-                <div id="experience" class="experience">
+                <div id="experience" class="experience main">
                     <!--    Experience Start-->
-                    <h3>Experience</h3>
+                    <h2>Experience</h2>
+                <div class =subtitle>Current Projects</div>
+                <div class= "row top-buffer">
+                <div class ="col-2 title-col">
+                    Most Wanted
+                    <img src="images/mostwanted_image.jpg" class="rounded img-fluid img-thumbnail" alt="picture of generic wanted poster">
+                </div>
+                <div class ="col desc-col">   
+                    An HTML and Javascript app allowing for the searching of a person against traits in a datafile.  Features function recursion and array filtering.
+                </div>
+                <div class ="col-2 link-col"> 
+                    <a href="https://github.com/techniqueo/mostWanted">GitHub link to the Most Wanted app</a>
+                </div>
+                </div>
+                <div class= "row top-buffer">
+                    <div class ="col-2 title-col">
+                        ATM
+                        <img src="images/atm_image.jfif" class="rounded img-fluid img-thumbnail tpic" alt="picture of ATM machine">
+                    </div>
+                    <div class ="col desc-col">   
+                        A node.js console ATM app, allowing for the withdrawal and deposit of funds against a set account.
+                    </div>
+                    <div class ="col-2 link-col"> 
+                        <a href="https://github.com/bhnash74/ATM">GitHub link to the ATM app</a>
+                    </div>
+                    </div>
+                    <div class= "row top-buffer">
+                        <div class ="col-2 title-col">
+                        RPSLS
+                        <img src="images/RPSLS_image.png" class="rounded img-fluid img-thumbnail tpic" alt="logo of rock paper scissors lizard Spock game">
+                        </div>
+                        <div class ="col desc-col">   
+                        The node.js console version of the traditional game of "Rock, Paper, Scissors, Lizard, Spock".  You are able to play Human vs. Human mode or Human vs. AI.>
+                        </div>
+                        <div class ="col-2 link-col"> 
+                            <a href="https://github.com/Scaraziah/Project4RPSLA">GitHub link to RPSLS</a>
+                        </div>
+                        </div>
+                        <div class =subtitle>Future Projects</div>
                     <!--    Experience End-->
                 </div>
                 <div id="contact" class="contact">
                     <!--    Contact Me Start-->
-                    <h3>Contact Me</h3>
+                    <h2>Contact Me</h2>
+                    <span class = "contact1">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/bethany-nash-41b63824/">LinkedIn</a></span>
                     <!--    Contact Me End-->
                 </div>
-            </div> 
         </div> 
+    </div>
+</div>
     </div>
 </body>
 </html>
