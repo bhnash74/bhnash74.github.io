@@ -25,20 +25,11 @@
     <!--   Navigation Start-->
         <div class="row">
             <div class="col-3 bg-dark">
-                <div class="side-navbar">
-                    <ul class="nav">
-                        <li  class="nav-link">
-                            <a href="#home"><span class="mx-2">Home</span></a> 
-                        </li>
-                        <li class="nav-link">
-                            <a href="#aboutme"><span class="mx-2">About Me</span></a>
-                        <li class="nav-link">
-                            <a href="#experience"><span class="mx-2">Experience</span></a>
-                        </li>
-                        <li class="nav-link">
-                            <a href="#contact"><span class="mx-2">Contact</span></a>
-                        </li>
-                    </ul>
+                <div class="d-flex flex-column bd-highlight mb-3" id="sidenav">
+                    <div class="p-2 bd-highlight"><a href="#home">Home</a></div>
+                    <div class="p-2 bd-highlight"><a href="#aboutme">About Me</a></div>
+                    <div class="p-2 bd-highlight"><a href="#experience">Experience</a></div>
+                    <div class="p-2 bd-highlight"><a href="#contact">Contact</a></div>
                 </div>
             </div>
         <!--   Navigation End-->
@@ -47,22 +38,33 @@
      <!--    Homepage Start-->
 
                 <div id="home" class="home text-wrap main">
-                    <img src="./images/placeimg.jpg" class="img-fluid" alt="Bethany Nash MERN Full Stack Developer">
-                    <p class="imagetext">Bethany Nash</br>MERN Full-Stack Developer</p>
+                    <div class="rounded-circle circle-md imgback">
+                    <img src="./images/bhn2.png" class="img-fluid pic" alt="Bethany Nash MERN Full Stack Developer">
+                    <span class="imagetext">
+                        <span class = "hello1">Hello, </span>
+                        <span class = "hello2">I'm Bethany Nash.</span>
+                        <span class = "hello3">I'm a </span>
+                        <span class = "hello4">MERN </span>
+                        <span class = "hello5">Full Stack Developer</span>
+                        <span class = "hello3">and I like to</span>
+                        <span class = "hello1">design</span>
+                        <span class = "hello3">and</span>
+                        <span class = "hello1">Solve problems.</span>
+                    </span>
+                    </div>
                         <!--    Homepage End-->
                 </div>
                 <div id="aboutme" class="aboutme main">
 
                     <!--    About Me Start-->
                     <h2>About Me</h2>
-                    <span class = "intro1">Hello, I'm Bethany Nash. </span>
-                    <span class = "intro2">I like to design and solve problems. </span>
-                    <span class = "intro3"><img src="./images/My Post.jpg" class="rounded-circle img-fluid pic" alt="image of laptop with stars bursting out">
-                    I live in the San Antonio area and love Web Development,
-                    as it allows me to work with people, creating solutions 
-                    to the projects they envision.</span>  
-                    <span class = "intro5">It's almost like doing Magic -</span>
-                    <span class = "intro6">all the hours of testing and research nonwithstanding.</span>
+                    <span class = "intro1"> <img src="./images/about_image.jpg" class="rounded-circle img-fluid pic" alt="image of laptop with stars bursting out">I live in the San Antonio area and love Web Development, </span>
+                    <span class = "intro3">as it allows me to work with people creating solutions 
+                        to the projects they envision.</span>  
+                    <span class = "intro4">I believe that my time in the military and over a decade of work in the IT 
+                        field has given me an appreciation for the many different approaches there are to a solution.</span>
+                    <span class = "intro5">When you help people create things, It feels like doing Magic -</span>
+                    <span class = "intro6">no matter how much effort it takes to get there.</span>
                     
                     <!--    About Me End-->
                 </div>
@@ -107,14 +109,50 @@
                         </div>
                         </div>
                         <div class =subtitle>Future Projects</div>
+                        <div class= "row top-buffer">
+                            <div class ="col-6 title-col">
+                                Professional </br>Portfolio
+                            </div>
+                            <div class ="col-6 desc-col">   
+                               A professional profile to start off my career in Web Dev.
+                            </div>
+                            </div>
+                            <div class= "row top-buffer">
+                                <div class ="col-6 title-col">
+                                   Capstone </br>Project
+                                </div>
+                                <div class ="col-6 desc-col">   
+                                   The culmination of the skills I have learned at DevCodeCamp.
+                                </div>
+                        </div>
                     <!--    Experience End-->
                 </div>
                 <div id="contact" class="contact">
                     <!--    Contact Me Start-->
                     <h2>Contact Me</h2>
-                    <span class = "contact1">
-                        <i class="fab fa-linkedin"></i>
-                        <a href="https://www.linkedin.com/in/bethany-nash-41b63824/">LinkedIn</a></span>
+                    <div class= "row top-buffer">
+                        <div class ="col">
+                            <span class = "contact">
+                                <a href="https://www.linkedin.com/in/bethany-nash-41b63824/">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class ="col">   
+                            <span class = "contact">
+                                <a href="https://github.com/bhnash74/">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </span>
+                        </div>
+                        <div class ="col"> 
+                            <span class = "contact">
+                                <a href="mailto:bhn774@gmail.com?subject=Hello!">
+                                    <i class="fas fa-envelope"></i>
+                                </a>
+                            </span>
+                        </div>
+                        </div>
                     <!--    Contact Me End-->
                 </div>
         </div> 
